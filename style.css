@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-simple-green-fresh-tea-tea-shop-home-background-picture-image_1021215.jpg');  /* Path to your background image */
+    background-size: cover;  /* Cover the entire page */
+    
+    background-attachment: fixed;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000000;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980B9;
+    
+}

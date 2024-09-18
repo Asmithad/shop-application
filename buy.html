@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Items</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buy Items</h1>
+        <form action="/buy" method="POST">
+            <label for="vadai">Vadai (Rs 30 each):</label>
+            <input type="number" id="vadai" name="vadai" min="0" value="0"><br>
+            <label for="soda">Soda (Rs 20 each):</label>
+            <input type="number" id="soda" name="soda" min="0" value="0"><br>
+            <label for="sandwich">Sandwich (Rs 100 each):</label>
+            <input type="number" id="sandwich" name="sandwich" min="0" value="0"><br>
+            <label for="tea">Tea (Rs 10 each):</label>
+            <input type="number" id="tea" name="tea" min="0" value="0"><br>
+            <label for="coffee">Coffee (Rs 15 each):</label>
+            <input type="number" id="coffee" name="coffee" min="0" value="0"><br>
+            <label for="given_amount">Amount Given:</label>
+            <input type="number" id="given_amount" name="given_amount" step="0.01" min="0" value="0"><br>
+            <button type="submit">Calculate Total</button>
+        </form>
+    </div>
+</body>
+</html>
